@@ -1,0 +1,121 @@
+@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+:root {
+    --dotnet-purple: #512bd4;
+    --dotnet-purple-hover: #4411BB;
+    --dotnet-purple-border-hover: #3311BB;
+}
+
+.bg-dotnet {
+    background-color: var(--dotnet-purple) !important;
+}
+
+.btn-dotnet {
+    color: #fff;
+    background-color: var(--dotnet-purple);
+    border-color: var(--dotnet-purple);
+}
+
+    .btn-dotnet:hover {
+        color: #fff;
+        background-color: var(--dotnet-purple-hover);
+        border-color: var(--dotnet-purple-border-hover);
+    }
+
+html, body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*
+    Extra small devices (phones portrait mode)
+*/
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.cyclist {
+    margin-left: 1.0em;
+    margin-right: 1.0em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+ 
+.cyclist img {
+    max-width: 125px;
+}
+
+.card-body {
+    padding-top: 0px;
+}
+
+/*
+    Small devices (phone landscape)
+*/
+
+@media (min-width: 576px) {    
+    .card-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pet {
+        width: 14em;
+    }
+}
+
+/*
+    large devices
+*/
+
+@media (min-width: 992px) { 
+    .pet {
+        margin-left: 3.5em;
+        margin-right: 3.5em;
+        margin-top: 2.0em;
+        margin-bottom: 2.0em;
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    }    
+
+    .pet img {
+        max-width: 190px;
+    }    
+
+    .card-body {
+        padding-top: 1.25rem;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .pet {
+        box-shadow: 0 1rem 3rem rgba(255,255,255,.11);
+    }
+
+}
+
+@media (hover) {
+ 
+    .pet:hover {
+        box-shadow: 0 1rem 3rem rgba(81,43,212,1.0);
+    }
+
+    .pet img {
+        filter: grayscale(50%);
+    }
+    
+        .pet:hover img {
+            filter: unset;
+        }    
+}
+
+/* Dropdown */
+
+.dropdown-toggle:focus ~ .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu:hover {
+    display: block;
+}
