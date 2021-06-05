@@ -8,5 +8,15 @@
     "instagram" : "timheuer",
     "twitter": "timheuer",
     "strava": "timheuer" 
+  },
+  {
+    "name": "Glenn Versweyveld",
+    "jobTitle": "Software engineer",
+    "img": "",
+    "description" : "",
+    "github" : "depechie",
+    "instagram" : "depechie",
+    "twitter": "depechie",
+    "strava": "depechie" 
   }
 ]
