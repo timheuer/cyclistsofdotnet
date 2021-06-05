@@ -61,8 +61,8 @@ html, body {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .pet {
-        width: 14em;
+    .cyclist {
+        width: 15em;
     }
 }
 
@@ -71,7 +71,7 @@ html, body {
 */
 
 @media (min-width: 992px) { 
-    .pet {
+    .cyclist {
         margin-left: 3.5em;
         margin-right: 3.5em;
         margin-top: 2.0em;
@@ -79,7 +79,7 @@ html, body {
         box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
     }    
 
-    .pet img {
+    .cyclist img {
         max-width: 190px;
     }    
 
@@ -89,7 +89,7 @@ html, body {
 }
 
 @media (prefers-color-scheme: dark) {
-    .pet {
+    .cyclist {
         box-shadow: 0 1rem 3rem rgba(255,255,255,.11);
     }
 
@@ -97,15 +97,15 @@ html, body {
 
 @media (hover) {
  
-    .pet:hover {
+    .cyclist:hover {
         box-shadow: 0 1rem 3rem rgba(81,43,212,1.0);
     }
 
-    .pet img {
+    .cyclist img {
         filter: grayscale(50%);
     }
     
-        .pet:hover img {
+        .cyclist:hover img {
             filter: unset;
         }    
 }

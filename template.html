@@ -31,7 +31,15 @@
                 <div class="card-body">
                     <h5 class="card-title">{{name}}</h5>
                     <p class="card-text">{{jobTitle}}</p>
-                    <!-- <a href="https://dot.net" class="btn btn-primary stretched-link">Visit</a> -->
+                    {{#strava}}
+                    <a class="card-link" href="https://strava.com/athletes/{{strava}}">Strava</a>
+                    {{/strava}}
+                    {{#twitter}}
+                    <a class="card-link" href="https://twitter.com/{{twitter}}">Twitter</a>
+                    {{/twitter}}
+                    {{#github}}
+                    <a class="card-link" href="https://github.com/{{github}}">GitHub</a>
+                    {{/github}}
                 </div>
             </div>
             {{/cyclists}}

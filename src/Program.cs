@@ -35,4 +35,4 @@ async static Task<IEnumerable<Cyclist>> makeBase64Encoded(IEnumerable<Cyclist> c
     return b64Cyclists;
 }
 
-record Cyclist(string name, string jobTitle, string img);
+record Cyclist(string name, string jobTitle, string img, string strava, string twitter, string github);
