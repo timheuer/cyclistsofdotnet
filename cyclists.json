@@ -8,5 +8,15 @@
     "instagram" : "timheuer",
     "twitter": "timheuer",
     "strava": "timheuer" 
+  },
+  {
+    "name": "Tom Kerkhove",
+    "jobTitle": "Azure Architect",
+    "img": "https://avatars.githubusercontent.com/u/4345663",
+    "description" : "",
+    "github" : "tomkerkhove",
+    "instagram" : "",
+    "twitter": "tomkerkhove",
+    "strava": "tomkerkhove" 
   }
 ]
