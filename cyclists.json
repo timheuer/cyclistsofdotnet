@@ -28,5 +28,15 @@
     "instagram" : "depechie",
     "twitter": "depechie",
     "strava": "gversweyveld" 
+  },
+  {
+    "name": "Bart Lannoeye",
+    "jobTitle": "Technical Architect",
+    "img": "https://4ydqig.db.files.1drv.com/y4p8YTz-Ks_q-YMZGtoGt2xmfGFT8ngU1RtCEinAXVqcEHuVB8sblO7n4-4OWdFlZTCxf4G_SO4zfW5w2FADbPLl3eJ9M2PgY9HA9PZ1xGpzC1z-pK065vNN34K_7sNXcy3VfW9EzBxR-VWMJR6BfnxQeI27uti5JbvXLPxhzibn_KSorWzfWQaL_KGubQ6yVufrMgppQp-G5gNlR0Mxm-9D7VhAyz52hxQTBWzh4QoFqQ/Gavia%202019.jpeg?psid=1",
+    "description" : "Consultant during the day, hobbyist at night.",
+    "github" : "bartlannoeye",
+    "instagram" : "",
+    "twitter": "bartlannoeye",
+    "strava": "bartlannoeye" 
   }
 ]
